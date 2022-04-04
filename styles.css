@@ -1,0 +1,58 @@
+.grid {
+    border:1px solid;
+    height:508px;
+    width:588px;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:yellow;
+}
+
+.grid div{
+    height:80px;
+    width:80px;
+    margin:2px;
+    background-color:rgba(255, 255, 255, 0.692);
+    border-radius:40px;
+
+}
+.grid .player-one{
+    background-color:red;
+    border-radius:40px;
+}
+.grid .player-two{
+    background-color:blue;
+    border-radius:40px;
+}
+
+.grid .hidden{
+    background-color:white;
+    margin-top:20px;
+}
+.connectFour{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+
+h1{
+    font-size:3rem;
+    margin:0px;
+}
+
+#result{
+    font-size:5.5rem;
+    z-index:1000;
+    position:absolute;
+}
+
+button{
+    height:20px;
+}
+
+.actions{
+    display:flex;
+    justify-content: space-around;
+    width:588px;
+    align-items:center;
+}
